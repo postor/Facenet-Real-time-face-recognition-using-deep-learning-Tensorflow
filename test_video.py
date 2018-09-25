@@ -14,9 +14,9 @@ from scipy import misc
 from packages import facenet, detect_face
 
 input_video="akshay_mov.mp4"
-modeldir = './model/20170511-185253.pb'
+modeldir = './model/20180408-102900.pb'
 classifier_filename = './class/classifier.pkl'
-npy=''
+npy='./packages'
 train_img="./train_img"
 
 with tf.Graph().as_default():
